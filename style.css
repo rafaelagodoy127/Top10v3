@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+
+    background: linear-gradient(
+        to right,
+        #000000,
+        #333333,
+        #C9C9C9,
+        #333333,
+        #000000
+    );
+
+    color: white;
+}
+
+/* MENU */
+
+nav {
+    background-color: #C9C9C9;
+
+    padding: 18px;
+
+    text-align: center;
+}
+
+nav a {
+    color: black;
+
+    text-decoration: none;
+
+    margin: 0 25px;
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+
+/* TÍTULO */
+
+h1 {
+    margin-top: 45px;
+
+    font-size: 36px;
+}
+
+
+/* MÚSICAS */
+
+h2 {
+    margin-top: 45px;
+
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+
+    margin-bottom: 40px;
+}
+
+
+/* GIFS */
+
+img {
+    width: 500px;
+
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+body > img {
+    margin: 20px;
+}
+
+body > a {
+    color: white;
+    font-size: 18px;
+}
+
+.foto-integrante {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
